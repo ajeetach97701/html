@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tables and forms</title>
+</head>
+<body>
+	<h1>tables</h1>
+	<table style="width: 100%" cellpadding="10" border="border" >
+		<caption>nothing</caption>
+		<tr>
+		<th>name</th><th>id number</th><th>best course</th>
+		</tr>
+		<tr>
+		<td>ajeet</td><td>12345</td><td>c programming</td>
+	</tr>
+	<tr>
+		<td>qwe</td><td>1234</td><td>nepal</td>
+	</tr>
+	</table>
+	<br><br><br><br>
+	<table style="width: 100%" border="border">
+		<tr>
+			<th>name</th>
+			<th colspan="2">phone</th>
+		</tr>
+		<td>abc</td>
+		<td>123</td>
+		<td>234</td>
+		
+	</table>
+	<br><br><br><br>
+	<table style="width: 100%" border="border">
+		<tr>
+			<th>name</th>
+			<td>ajeet</td>
+		</tr>
+		<tr>
+			<th rowspan="2">hdhi</td>
+				<td>fhfhfhfh</td>
+		</tr>
+		<tr>
+			<td>hfhsdhf</td>
+		</tr>
+		<br><br><br><br>
+
+
+ <h1>FORMS</h1>
+		<form>
+			first name:<br>
+			<input type="text" name="first name"><br>
+			last name:<br>
+			<input type="text" name="last name">
+			<br>
+
+
+			Gender:<br>
+			<input type="radio" name="Gender" value="male" checked>male
+			<input type="radio" name="Gender" value="female" checked>female
+			<input type="radio" name="Gender" value="others" checked>others
+			
+
+			password:<br>
+			<input type="password" name="psw">
+			<br>
+			<fieldset><legend>optional</legend>
+			choose your favourite food:<br>
+			<input type="checkbox" name="food" value="rice">rice
+			<input type="checkbox" name="food" value="momo">momo
+			<input type="checkbox" name="food" value="pizza">pizza<br><br>
+			
+
+			enter the date of form filled:<br>
+			<input type="date" name="todays date" max="2030-12-12" min="2000-12-12"><br><br>
+			
+
+			select your favourite color:<br>
+			<input type="color" name="favcolour"><br><br>
+		    </fieldset>
+
+			quantity between 1 and 5:<br>
+			<input type="number" name="quantity" min="1" max="5"><br><br>
+			<br>
+			feedback:<br>
+			<textarea name="message" rows="10" cols="50"></textarea><br><br>
+			time:<br>
+			<input type="time" name="present time"><br>
+			<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+
+			<input type="button" onclick="alert('clicked')" value="cickme">
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+
+
+
+		</form>
+</body>
+</html>
